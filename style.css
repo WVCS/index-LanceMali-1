@@ -1,28 +1,26 @@
-body{
-  Background-color:hotpink;
-}
-
-h3{color:aqua; 
+h1 {
   text-align: center;
-    Font-size: 50px;
-  Border-Style: dotted
-      
+  color: white;
+  font-family: Tahoma;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  text-shadow: 4px 2px black;
+  
   
 }
-
-p{Color: aqua;
-  Font-size: 25px;
-   font-family: "Lucida Console", "Courier New", monospace;
-   
-  
+body {
+  background-color: #F8333C;
 }
-
-img:hover {
-  box-shadow: 0 0 100px 1px rgba(0, 0, 190, 200);
+img{
+  height: 400px;
+  width: 800px;
 }
+/*body:hover{
+  background-color: black;
+}*/
+img:hover{
 
-table, th, td {
-  border: 1px dotted aqua; Color: aqua; Text-align: Center;
+  border-radius: 50%;
+  height: 500px;
+  width: 900px;
 }
-
-a {Text-allign :Center; Color: aqua; Font-Size: 40px;  border: 1px dotted aqua}
