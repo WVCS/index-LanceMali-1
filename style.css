@@ -1,3 +1,28 @@
-body {
-
+body{
+  Background-color:hotpink;
 }
+
+h3{color:aqua; 
+  text-align: center;
+    Font-size: 50px;
+  Border-Style: dotted
+      
+  
+}
+
+p{Color: aqua;
+  Font-size: 25px;
+   font-family: "Lucida Console", "Courier New", monospace;
+   
+  
+}
+
+img:hover {
+  box-shadow: 0 0 100px 1px rgba(0, 0, 190, 200);
+}
+
+table, th, td {
+  border: 1px dotted aqua; Color: aqua; Text-align: Center;
+}
+
+a {Text-allign :Center; Color: aqua; Font-Size: 40px;  border: 1px dotted aqua}
