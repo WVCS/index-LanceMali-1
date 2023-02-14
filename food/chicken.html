@@ -10,7 +10,28 @@
       min-height: 100vh;
       background-color: #2D3142;
     }
+  .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto;
+      padding: 10px;
+      border: 10px solid #333;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px #333;
+      width: 300px;
+      height: 300px;
+    }
 
+    .logo-container img {
+      max-width: 100%;
+      max-height: 100%;
+      transition: all 0.3s;
+    }
+
+    .logo-container:hover img {
+      filter: brightness(110%);
+    }
     .grid-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
