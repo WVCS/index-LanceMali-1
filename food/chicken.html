@@ -1,1 +1,157 @@
+<html>
 
+<head>
+  <title>Lance's Chicken Shack</title>
+  <style>
+    body {
+      display: grid;
+      grid-template-rows: 1fr auto;
+      min-height: 100vh;
+      background-color: #2D3142;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .grid-item {
+      padding: 20px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      width: calc(50% - 10px);
+      height: calc(50% - 10px);
+      transition: all 0.3s ease;
+    }
+
+    .review:hover,
+    .story:hover,
+    .promotions:hover,
+    .calendar:hover {
+      transform: translateY(-5px);
+      box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .review {
+      text-align: center;
+      background-color: #E5ECE9;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      width: calc(70% - 10px);
+      height: calc(80% - 10px);
+    }
+
+    .story {
+      text-align: center;
+      background-color: #969A97;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      width: calc(90% - 10px);
+      height: calc(90% - 10px);
+    }
+
+    .promotions {
+      background-color: #90ee90;
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      width: calc(40% - 10px);
+      height: calc(40% - 10px);
+    }
+
+    .calendar {
+      text-align: center;
+      background-color: #f08080;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      width: calc(60% - 10px);
+      height: calc(60% - 10px);
+    }
+
+    nav {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #00100B;
+      color: #fff;
+      font-size: 2em;
+      height: 80px;
+      
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fff;
+      color: #333;
+      border-radius: 5px;
+    }
+
+    .logo-image {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: -6px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="grid-item review">
+      <h2>Reviews</h2>
+      <p>
+        "The food here is absolutely fantastic! I can't recommend it enough. From the appetizers to the main courses and desserts, everything was cooked to perfection and bursting with flavor. The service was also excellent - our server was knowledgeable, attentive, and friendly. This is definitely a restaurant worth checking out!"
+      </p>
+      <p>
+        <em>- John Smith, Food Critic</em>
+      </p>
+      <div style="text-align:center">
+        <span style="font-size: 48px; color: gold;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      </div>
+    </div>
+
+    <div class="grid-item story">Our Story</div>
+    <div class="grid-item story">
+      <h2>Our Story</h2>
+      <p>
+        Our family-owned fried chicken shop has been serving up crispy, juicy chicken for over 50 years. Our recipe has been passed down from generation to generation, and we take pride in using only the freshest, high-quality ingredients. We started out as a small, hole-in-the-wall joint, but our delicious chicken quickly became the talk of the town.
+      </p>
+      <p>
+        Today, we've expanded to multiple locations across Southern California, but we still make our chicken the same way we always have. We believe that the secret to great fried chicken is in the seasoning, which is why we hand-mix our blend of spices every day to ensure that every piece of chicken is packed with flavor.
+      </p>
+      <p>
+        We're a family business, and we treat all of our customers like they're a part of our family too. We take pride in serving our community and providing a warm, welcoming atmosphere where everyone can enjoy a delicious meal together. Come see us and taste the difference that comes from over 50 years of experience making the best fried chicken around!
+      </p>
+    </div>
+
+    <div class="grid-item promotions">Promotions</div>
+    
+    <div class="grid-item calendar">Events Calendar</div>
+  </div>
+  <nav>
+    <a class="navbar-brand" href="/">
+      <div class="logo-image">
+        <img src="food/Final Logos for WD.png" class="img-fluid">
+      </div>
+    </a>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Reservations</a>
+    <a href="#">Contact Us</a>
+    <a class="navbar-brand" href="/">
+      <div class="logo-image">
+        <img src="food/Final Logos for WD.png" class="img-fluid">
+      </div>
+    </a>
