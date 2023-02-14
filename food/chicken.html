@@ -10,7 +10,8 @@
       min-height: 100vh;
       background-color: #2D3142;
     }
-  .logo-container {
+
+    .logo-container {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -29,6 +30,7 @@
     .logo-container:hover img {
       filter: brightness(110%);
     }
+
     .grid-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -63,6 +65,9 @@
       grid-row: 1 / 2;
       width: calc(70% - 10px);
       height: calc(80% - 10px);
+      background-color: #00100B;
+      color: #fff;
+      border-style: solid;
     }
 
     .story {
@@ -72,6 +77,9 @@
       grid-row: 1 / 2;
       width: calc(90% - 10px);
       height: calc(90% - 10px);
+      background-color: #00100B;
+      color: #fff;
+      border-style: solid;
     }
 
     .promotions {
@@ -79,7 +87,10 @@
       grid-column: 1 / 2;
       grid-row: 2 / 3;
       width: calc(40% - 10px);
-      height: calc(40% - 10px);
+      height: calc(90% - 10px);
+      background-color: #00100B;
+      color: #fff;
+      border-style: solid;
     }
 
     .calendar {
@@ -89,12 +100,18 @@
       grid-row: 2 / 3;
       width: calc(60% - 10px);
       height: calc(60% - 10px);
+      background-color: #00100B;
+      color: #fff;
+      border-style: solid;
     }
 
     nav {
-       position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the navbar at the bottom of the page */
-  width: 100%; /* Full width */
+      position: fixed;
+      /* Set the navbar to fixed position */
+      bottom: 0;
+      /* Position the navbar at the bottom of the page */
+      width: 100%;
+      /* Full width */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -106,7 +123,6 @@
     }
 
     nav a {
-      
       text-decoration: none;
       color: #fff;
       padding: 10px;
@@ -161,6 +177,16 @@
     </div>
 
     <div class="grid-item promotions">Promotions</div>
+    <div class="grid-item promotions">
+      <center>
+        <h2>New Item!!!</h2>
+      </center>
+      <p>
+        The new BAJA CHICKEN SANDWICH will be avalible this Sunday featuring a baja style seasoning and our signature crsipy chicken sandwich!!!
+        <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Baja-Chicken---Slaw-Sliders_exps48609_TH1999637A05_06_2b_RMS.jpg" style="width:365px;height:200px;">
+
+      </p>
+    </div>
 
     <div class="grid-item calendar">Events Calendar</div>
   </div>
