@@ -197,10 +197,18 @@
           <img src="FIXED Logo.png">
         </div>
       </a>
-      <a href="#">Home</a>
       <a href="https://www.chick-fil-a.com/menu" target="_blank">Menu</a>
-      <a href="#">Reservations</a>
-      <a href="#">Contact Us</a>
+      <a href="#" onclick="ReservationMessage()">Reservations</a>
+      <a href="#" onclick="ContactMessage()">Contact Us</a>
+      <script>
+        function ReservationMessage() {
+          alert("To Cool For Reservations, Open Seating!");
+        }
+
+        function ContactMessage() {
+          alert("Forgot To Pay The Phone Bill :(");
+        }
+      </script>
 
       <a class="navbar-brand">
         <div class="logo-container">
