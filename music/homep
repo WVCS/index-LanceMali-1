@@ -1,0 +1,250 @@
+<head>
+
+  <title>Jingle Jangle</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Lineup</a></li>
+        <img src="FIXED Logo.png">
+        <li><a href="#">Ticketing</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Jingle Jangle</h2>
+      <p>Jingle Jangle is a celebration of the hip-hop genre, which has its roots in African American and Latino communities in the Bronx, New York City in the 1970s. The festival brings together fans of rap music from all over the world to enjoy performances from some of the biggest names in the genre. It's an opportunity to experience the music live, to see the artists perform their biggest hits and to discover new talent in the rap music scene. Rap music is not just about the music itself, but also about the culture that surrounds it, including dance, fashion, and visual art. Rap music festivals celebrate this culture, with performers and fans alike dressing up in bold and colorful outfits, dancing to the beat, and enjoying the energy and excitement of the event. Overall, a Rap music festival is an immersive and unforgettable experience that celebrates the power and creativity of hip-hop culture.</p>
+
+    </section>
+
+    <section>
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>
+          <h3>Miami
+            <p>Hard Rock Stadium</p>
+            <p>April 1st, 2023</p>
+          </h3>
+        </li>
+        <li>
+          <h3>Las Vegas
+            <p>Hollywood Park Casino</p>
+            <p>May 29th, 2023</p>
+          </h3>
+
+        </li>
+        <li>
+          <h3>Puerto Rico
+            <p>José Miguel Agrelot Coliseum</p>
+            <p>July 16th, 2023</p>
+          </h3>
+
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>About Us</h2>
+      <p>Jingle Jangle is a music festival that was founded in 2019, and it quickly became one of the most highly anticipated events of the year. The festival takes place in a large outdoor venue and features a diverse lineup of artists spanning multiple genres, from indie rock to hip-hop and electronic music. In addition to the music, Jingle Jangle also offers a range of food and beverage options, art installations, and other immersive experiences that make it a unique and memorable event. Despite only being around for a few years, Jingle Jangle has already built a dedicated following of music fans who look forward to it as a highlight of the festival season. With its commitment to showcasing new and emerging artists alongside established headliners, Jingle Jangle is helping to shape the future of music festivals and create a space for creativity and community to flourish.</p>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Read More</a>
+    </section>
+
+    <section>
+      <h2>Latest News</h2>
+      <ul>
+        <li>
+          <h3>&#9670; Lil Uzi Vert &#9670;</h3>
+          <p>Lil Uzi Vert is one of the most prominent figures in the world of hip-hop music. He's known for his unique style, bold fashion choices, and catchy beats. Recently, he's been in the news for a very different reason: his pink head diamond. The diamond, which Lil Uzi Vert had implanted in his forehead, has captured the attention of fans and critics alike. Some have praised the rapper for his daring fashion choices, while others have expressed concern about the safety risks involved.
+          </p>
+          <p>
+            The diamond itself is an impressive 10-carat pink diamond, worth an estimated $24 million. Lil Uzi Vert reportedly bought the diamond from a jeweler and had it implanted into his forehead in a piercing-style procedure. The diamond is said to have taken months to acquire and was custom-made for Lil Uzi Vert's unique vision.
+          </p>
+          <p>
+            Many fans have speculated about the meaning behind Lil Uzi Vert's diamond. Some have suggested that it's a symbol of his success and status as a wealthy rapper, while others see it as a statement about his individuality and willingness to take risks. However, some have also raised concerns about the potential risks involved in having a diamond implanted into one's forehead. The procedure could cause infection or other complications, and some have worried about the possibility of theft or violence targeting the diamond.
+          </p>
+          <p>
+            Despite the concerns, Lil Uzi Vert has expressed his excitement and pride in the diamond, sharing photos and videos of it on social media. He has even tweeted that the diamond is "worth more than all my cars together, plus my house." While the pink head diamond is certainly an attention-grabbing statement piece, only time will tell whether it becomes a lasting trend in the world of hip-hop fashion or a one-time stunt by Lil Uzi Vert.</p>
+
+        </li>
+        <li>
+          <h3>&#9813;NBA YoungBoy&#9813;</h3>
+          <p>NBA Youngboy, one of the most popular and controversial rappers in the hip-hop industry, recently posted an apology video on his social media accounts. The video was a response to his recent arrest in Los Angeles for an outstanding federal warrant, which led to his detention in jail without bail.
+          </p>
+          <p>
+            In the video, NBA Youngboy apologized to his fans, family, and the people he may have hurt or disappointed. He acknowledged his mistakes and expressed his remorse for the things he's done in the past that have caused harm to himself and others. The rapper spoke candidly about his struggles with mental health issues and his desire to change and become a better person.
+          </p>
+          <p>
+            The apology video has generated a mixed response from fans and critics. Some have praised NBA Youngboy for taking responsibility for his actions and showing vulnerability in his public statement. Others have criticized the video as insincere or a ploy to gain sympathy from his fans.
+          </p>
+          <p>
+            Regardless of the response, the video shows that NBA Youngboy is aware of the impact his behavior has had on others and is taking steps to make amends. It's unclear what the future holds for the rapper, who has faced numerous legal and personal challenges in recent years. However, his apology video may be a sign that he's ready to take accountability for his actions and move forward in a more positive direction.</p>
+
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+
+      <li><a href="https://twitter.com/home?lang=en">Twitter</a></li>
+      <li><a href="https://www.instagram.com/">Instagram</a></li>
+      <li><a href="https://myspace.com/">MySpace</a></li>
+
+<style>
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #000;
+  padding: 20px;
+}
+
+nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: inset;
+  border-width: 16px;
+  border-color: #fff;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+nav li {
+  margin: 0 90px;
+}
+
+nav a {
+  font-size: 40px;
+  color: #5f5aa2;
+  transition: color 0.7s ease;
+}
+
+nav a:hover {
+  color: #f7accf;
+}
+
+/* Main styles */
+main {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+section h1,
+section h2,
+section h3 {
+  margin-top: 0;
+}
+
+/* Event list styles */
+section ul li {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section ul li:hover {
+  transform: translateY(-5px);
+}
+
+section ul li h3 {
+  margin-top: 0;
+}
+/* Titles */
+h2 {
+  font-size: 50px;
+  color: #5f5aa2;
+  transition: color 0.7s ease;
+}
+
+/* Events Styling */
+h3 {
+  color: #5f5aa2;
+  font-size: 50px;
+  transition: color 0.7s ease;
+  background-color: ;
+}
+h3:hover {
+  opacity: 1;
+  color: #f7accf;
+}
+
+/*About Body */
+p {
+  color: gray;
+  font-size: 20px;
+  transition: color 0.7s ease;
+  background-color: ;
+}
+p:hover {
+  opacity: 1;
+  color: #f7accf;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a {
+  transition: color 0.7s ease;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+footer a:hover {
+  opacity: 1;
+  color: #f7accf;
+}
+</style>
