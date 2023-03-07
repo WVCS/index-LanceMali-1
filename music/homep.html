@@ -8,13 +8,13 @@
   <header>
     <nav>
       <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Lineup</a></li>
+        <li2><a href="../index.html">Home</a></li2>
+        <li2><a href=#middle>Events</a></li2>
+        <li2><a href="lineup.html">Lineup</a></li2>
         <img src="jinglejangle logo.PNG" style="width:70px;height:70px; border-style: solid; border-radius: 10px">
-        <li><a href="#">Ticketing</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li2><a href="#">Ticketing</a></li2>
+        <li2><a href="#">Blog</a></li2>
+        <li2><a href="#">Contact</a></li2>
       </ul>
     </nav>
   </header>
@@ -23,34 +23,35 @@
     <section>
       <h2>Jingle Jangle</h2>
       <p>Jingle Jangle is a celebration of the hip-hop genre, which has its roots in African American and Latino communities in the Bronx, New York City in the 1970s. The festival brings together fans of rap music from all over the world to enjoy performances from some of the biggest names in the genre. It's an opportunity to experience the music live, to see the artists perform their biggest hits and to discover new talent in the rap music scene. Rap music is not just about the music itself, but also about the culture that surrounds it, including dance, fashion, and visual art. Rap music festivals celebrate this culture, with performers and fans alike dressing up in bold and colorful outfits, dancing to the beat, and enjoying the energy and excitement of the event. Overall, a Rap music festival is an immersive and unforgettable experience that celebrates the power and creativity of hip-hop culture.</p>
-
-      <img><img src="jinglejangle logo.PNG" style="width:1000px;height:1000px; border-style: solid; border-radius: 10px;"></img>
+      <img><img src="jinglejangle logo.PNG" style="width:1000px;height:500px; border-style: solid; border-radius: 10px;"></img>
     </section>
 
     <section>
-      <h2>Upcoming Events</h2>
-      <ul>
-        <li>
-          <h3>Miami
-            <p>Hard Rock Stadium</p>
-            <p>April 1st, 2023</p>
-          </h3>
-        </li>
-        <li>
-          <h3>Las Vegas
-            <p>Hollywood Park Casino</p>
-            <p>May 29th, 2023</p>
-          </h3>
+      <div id="middle">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>
+            <h3>Miami
+              <p>Hard Rock Stadium</p>
+              <p>April 1st, 2023</p>
+            </h3>
+          </li>
+          <li>
+            <h3>Las Vegas
+              <p>Hollywood Park Casino</p>
+              <p>May 29th, 2023</p>
+            </h3>
 
-        </li>
-        <li>
-          <h3>Puerto Rico
-            <p>José Miguel Agrelot Coliseum</p>
-            <p>July 16th, 2023</p>
-          </h3>
+          </li>
+          <li>
+            <h3>Puerto Rico
+              <p>José Miguel Agrelot Coliseum</p>
+              <p>July 16th, 2023</p>
+            </h3>
 
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section>
@@ -100,7 +101,6 @@
       <li><a href="https://twitter.com/home?lang=en">Twitter</a></li>
       <li><a href="https://www.instagram.com/">Instagram</a></li>
       <li><a href="https://myspace.com/">MySpace</a></li>
-
 <style>
 body {
   font-family: "Helvetica Neue", sans-serif;
@@ -111,6 +111,9 @@ body {
   padding: 0;
   background-color: #000000;
 }
+html {
+  scroll-behavior: smooth;
+ }
 
 a {
   color: #fff;
@@ -144,7 +147,7 @@ nav ul {
   flex-wrap: nowrap;
 }
 
-nav li {
+nav li2 {
   margin: 0 90px;
 }
 
@@ -248,16 +251,17 @@ footer a {
 footer a:hover {
   opacity: 1;
   color: #f7accf;
+  /* Img Hover */
 }
-  
-  img:hover {
-      transform: translateY(-5px);
-      box-shadow: 20px 20px 20px #f7accf;
+img:hover {
+  transform: translateY(-5px);
+  box-shadow: 20px 20px 20px #f7accf;
   transition-duration: 2s;
-    }
-  li:hover {
-      transform: translateY(-5px);
-      box-shadow: 10px 10px 10px #f7accf;
+}
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 10px #f7accf;
   transition-duration: 2s;
-    }
+}
+
 </style>
