@@ -1,0 +1,340 @@
+<html>
+<head>
+	
+	<title>Hale Hyena</title>
+  <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQng0sFHr4WZLsAZ55tHUb0jPDD90lPDDZl8xb7FUsGrv7C1l3lYF5pHaKK6sGqkB93tnExDUKf7Ks:https://img.freepik.com/premium-vector/hyena-cartoon-illustration_119631-306.jpg%3Fw%3D2000&usqp=CAU&ec=48665701">
+</head>
+<body>
+	
+	<nav>
+  <div class="logo">
+    <img src="hh.png" alt="Team logo">
+  </div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Schedule</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+	<!-- Introduction section -->
+	<div class="row">
+		<div class="col">
+      <center>
+			<h2>Welcome to our team!</h2>
+			<p>The Hale Hyenas are a hockey team based in the city of Hale, located in the heart of the Canadian wilderness. Founded in 1995, the team has a long and storied history of success on the ice. The Hyenas have won numerous championships and have earned a reputation as one of the toughest and most skilled teams in the league.
+      </p>
+      <p>
+The team's home arena, the Hale Iceplex, is a state-of-the-art facility that features top-notch amenities for both players and fans. With a seating capacity of 10,000, the arena is always packed with enthusiastic fans who come to cheer on the Hyenas. The team's colors are black, white, and gold, and their logo features a fierce-looking hyena with a hockey stick in its mouth.
+      </p>
+      <p>
+One of the things that sets the Hale Hyenas apart from other teams is their dedication to community service. The players are actively involved in a number of local charities and regularly volunteer their time to help those in need. Whether it's visiting sick children in the hospital or participating in a food drive, the Hyenas are always looking for ways to give back to their community.
+      </p>
+      <p>
+Off the ice, the Hyenas are known for their strong team culture and camaraderie. The players have a deep respect for each other and are always willing to lend a helping hand when needed. They also know how to have fun, whether it's playing pranks on each other or hosting team events.
+      </p>
+      <p>
+In summary, the Hale Hyenas are a top-tier hockey team with a rich history of success, a state-of-the-art arena, and a commitment to community service. With their fierce competitiveness, strong team culture, and dedication to their fans, the Hyenas are sure to remain a force to be reckoned with for years to come.</p>
+
+      </center>
+		</div>
+		<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Chicken_Nuggets.jpg/800px-Chicken_Nuggets.jpg" style="width:100%">
+    <div class="text">Nugt</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Chicken_Nuggets.jpg/800px-Chicken_Nuggets.jpg" style="width:100%">
+    <div class="text">Chicken</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Chicken_Nuggets.jpg/800px-Chicken_Nuggets.jpg" style="width:100%">
+    <div class="text">Sauce</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	</div>
+
+	<!-- News section -->
+	<div class="row">
+		<div class="col">
+			<h2>Latest News</h2>
+			<p>Check out our recent game highlights and player interviews.</p>
+			<video src="game-highlights.mp4" controls></video>
+		</div>
+		<div class="col">
+			<h2>Upcoming Games</h2>
+			<p>See our schedule and come support us at our next game!</p>
+			<ul>
+				<li>vs. Team A - April 10th</li>
+				<li>vs. Team B - April 17th</li>
+				<li>vs. Team C - April 24th</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Email subscription form -->
+	<div class="row">
+		<div class="col">
+			<h2>Join Our Email List</h2>
+			<p>Stay updated on our latest games, events, and news by subscribing to our email list.</p>
+			<form action="#" method="post">
+				<label for="email">Email Address:</label>
+				<input type="email" id="email" name="email" required>
+				<button type="submit">Subscribe</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Footer section -->
+	<footer>
+		<p>Connect with us:</p>
+		<div class="social-icons">
+			<a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+			<a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+			<a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+	<style>
+		/* CSS for nav bar */
+		nav {
+			background-color: #514a44;
+			overflow: hidden;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 999;
+		}
+		nav a {
+			color: black;
+			text-align: center;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+			margin-right: 20px;
+		}
+		nav a:hover {
+			color: #a68c6e;
+		}
+
+		/* CSS for grid */
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.col {
+			float: left;
+			width: 100%;
+			padding: 20px;
+			background-color: #e6dbc7;
+			margin-top: 20px;
+			box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+		}
+		@media only screen and (min-width: 600px) {
+			.col {
+				width: 100%;
+			}
+		}
+
+		/* CSS for images */
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		/* CSS for footer */
+		footer {
+			background-color: #514a44;
+			color: white;
+			padding: 40px 20px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.social-icons {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.social-icons a {
+			margin: 0 10px;
+		}
+		.social-icons img {
+			height: 30px;
+			width: 30px;
+		}
+
+		/* CSS for form */
+		form {
+			margin-top: 20px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+		input[type="email"] {
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			width: 60%;
+			border-radius: 5px;
+			margin-right: 10px;
+			background-color: #e6dbc7;
+			color: #514a44;
+		}
+		button[type="submit"] {
+			padding: 10px;
+			background-color: #a68c6e;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: all 0.2s ease-in-out;
+		}
+		button[type="submit"]:hover {
+			background-color: #514a44;
+			transform: translateY(-2px);
+			box-shadow: 0 2
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}    
+</style>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
