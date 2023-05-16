@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -26,6 +25,9 @@
       <div id="suggestions" style="display: none;"></div>
     </div>
   </header>
+  <br><br>
+  <p class="subheader"> RUNWAY SUMMER 2023 </p>
+  <br><br>
   <div id="page-content">
     <div id="slideshow">
 
@@ -72,6 +74,14 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
   </div>
+  <br>
+  <br>
+
+  <p class="subheader"> PRODUCTS </p>
+
+  <br>
+
+  <br>
   <section id="mens">
     <div class="product-grid">
       <div class="product-item">
@@ -92,10 +102,13 @@
         <h2>LM MU5IC BUTTON D0WN</h2>
         <p>$2937.10</p>
         <a href="#" class="add-to-cart" data-id="2" data-name="Product 2" data-price="20.00">Add to Cart</a>
+
       </div>
 
       <div class="product-item">
+
         <section id="womens">
+
           <img src="https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-color-blocked-knit-dress-ready-to-wear--FMKD08LM6001_PM2_Front%20view.jpg" width=100%>
           <h2>LM GEOMETR3Y DR3SS</h2>
           <p>$958.00</p>
@@ -139,6 +152,14 @@
       </div>
 
 </body>
+<br>
+<br>
+
+<p class="subheader"> &copy; LM. ALL RIGHTS RESERVED. </p>
+
+<br>
+
+<br>
 
 </html>
 
@@ -375,7 +396,19 @@ h2{
 .invert {
             filter: invert(1);
         }
-      </style>
+.subheader{
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+  border: solid white 1px;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+</style>
 
 <script>
 let slideIndex = 1;
@@ -425,7 +458,7 @@ for (var i = 0; i < addToCartButtons.length; i++) {
 function updateCartCount() {
   document.getElementById("cart-count").textContent = cartCount;
 }
-var searchTerms = ["Men", "Women", "Handbags", "Secret", "Stuff", "Apple", "Backpack", "Cat", "Dog", "Elephant", "Flowers", "Grape", "Houseware", "Igloo", "Jack-in-the-box", "Koala", "Lance", "Mouse", "Nolan", "Otter", "Pop", "Queso", "Restroom", "Sink", "Toilet", "UV", "Velcro", "Water", "Xylophone", "Youth", "Zebra"];
+var searchTerms = ["Men", "Women", "Handbags", "Secret", "Stuff"];
 
 var searchBar = document.getElementById("search");
 var suggestionsContainer = document.getElementById("suggestions");
